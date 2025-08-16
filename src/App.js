@@ -61,7 +61,7 @@ function App() {
 </table>
 <div className="button_group" >
   <button className='btns' onClick={handlePrevious} disabled={currentPage===1}>Previous</button>
-  <span style={{margin : "0 10"}}>
+  <span className='current_page'>
     {currentPage}</span>
     <span>
     /{totalPages} </span>
