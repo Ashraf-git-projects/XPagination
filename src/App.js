@@ -61,8 +61,8 @@ function App() {
 </table>
 <div className="button_group" >
   <button className='btns' onClick={handlePrevious} disabled={currentPage===1}>Previous</button>
-  <button className='btns'>
-    {currentPage} </button>
+  <span className='btns'>
+    {currentPage} </span>
   <button className='btns' onClick={handleNext} disabled={currentPage===totalPages}>Next</button>
 </div>
 </div>
