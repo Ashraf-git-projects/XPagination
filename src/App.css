@@ -1,18 +1,14 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.pagination_content{
+background-color: #c5dfe7;
+height: 100vh;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App h3{
+  margin: 0 20px 0;
+  padding-top:10px ;
 }
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -38,7 +34,8 @@
 }
 .page_table{
   border: 1px solid black;
-  width: 100%;
+  width: 80%;
+  margin: 20px auto;
   border-collapse: collapse;
 }
 .page_table th , .page_table td{

@@ -34,9 +34,11 @@ function App() {
   const handleNext = ()=>{
     setCurrentPage((prev)=>Math.min(prev + 1 , totalPages));
   };
+
   return (
     <div className="App">
-      Xpagination
+      <div className='pagination_content' >
+      <h3>Xpagination</h3>
         <table className="page_table">
   <thead>
     <tr className='table_head_row'>
@@ -62,6 +64,7 @@ function App() {
   <span style={{margin : "0 10"}}>
     {currentPage}/{totalPages} </span>
   <button className='btns' onClick={handleNext} disabled={currentPage===totalPages}>Next</button>
+</div>
 </div>
     </div>
   );
