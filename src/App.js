@@ -58,10 +58,10 @@ function App() {
   </tbody>
 </table>
 <div className="button_group" >
-  <button className='btns' onClick={handlePrevious} disabled={currentPage===1}>previous</button>
+  <button className='btns' onClick={handlePrevious} disabled={currentPage===1}>Previous</button>
   <span style={{margin : "0 10"}}>
     {currentPage}/{totalPages} </span>
-  <button className='btns' onClick={handleNext} disabled={currentPage===totalPages}>next</button>
+  <button className='btns' onClick={handleNext} disabled={currentPage===totalPages}>Next</button>
 </div>
     </div>
   );
